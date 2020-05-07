@@ -1,0 +1,6 @@
+/home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/vikokoks/CLionProjects/221_2019
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- IPO is supported
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vikokoks/CLionProjects/221_2019/cmake-build-debug
