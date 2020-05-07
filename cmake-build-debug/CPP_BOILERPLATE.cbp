@@ -5,7 +5,7 @@
 		<Option title="CPP_BOILERPLATE"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\include\;CMake Files\tests\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\tests\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/vikokoks/CLionProjects/221_2019/cmake-build-debug"/>
@@ -253,14 +253,17 @@
 		<Unit filename="/home/vikokoks/CLionProjects/221_2019/app/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/engine.dir/src/example.cpp.o">
+		<Unit filename="/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/engine.dir/src/lab1.cpp.o">
 			<Option target="main"/>
 			<Option target="unit_tests"/>
 		</Unit>
-		<Unit filename="/home/vikokoks/CLionProjects/221_2019/src/example.cpp">
+		<Unit filename="/home/vikokoks/CLionProjects/221_2019/include/lab1.h">
 			<Option target="engine"/>
 		</Unit>
-		<Unit filename="/home/vikokoks/CLionProjects/221_2019/tests/dummy.cpp">
+		<Unit filename="/home/vikokoks/CLionProjects/221_2019/src/lab1.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/home/vikokoks/CLionProjects/221_2019/tests/lab1_test.cpp">
 			<Option target="unit_tests"/>
 		</Unit>
 		<Unit filename="/home/vikokoks/CLionProjects/221_2019/tests/main.cpp">
@@ -292,9 +295,6 @@
 		</Unit>
 		<Unit filename="/home/vikokoks/CLionProjects/221_2019/cmake/Warnings.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
-		</Unit>
-		<Unit filename="/home/vikokoks/CLionProjects/221_2019/include/exampleConfig.h.in">
-			<Option virtualFolder="CMake Files\include\"/>
 		</Unit>
 		<Unit filename="/home/vikokoks/CLionProjects/221_2019/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>

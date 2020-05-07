@@ -564,32 +564,32 @@ app/main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
-src/example.o: src/example.cpp.o
+src/lab1.o: src/lab1.cpp.o
 
-.PHONY : src/example.o
+.PHONY : src/lab1.o
 
 # target to build an object file
-src/example.cpp.o:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/example.cpp.o
-.PHONY : src/example.cpp.o
+src/lab1.cpp.o:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/lab1.cpp.o
+.PHONY : src/lab1.cpp.o
 
-src/example.i: src/example.cpp.i
+src/lab1.i: src/lab1.cpp.i
 
-.PHONY : src/example.i
+.PHONY : src/lab1.i
 
 # target to preprocess a source file
-src/example.cpp.i:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/example.cpp.i
-.PHONY : src/example.cpp.i
+src/lab1.cpp.i:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/lab1.cpp.i
+.PHONY : src/lab1.cpp.i
 
-src/example.s: src/example.cpp.s
+src/lab1.s: src/lab1.cpp.s
 
-.PHONY : src/example.s
+.PHONY : src/lab1.s
 
 # target to generate assembly for a file
-src/example.cpp.s:
-	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/example.cpp.s
-.PHONY : src/example.cpp.s
+src/lab1.cpp.s:
+	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/lab1.cpp.s
+.PHONY : src/lab1.cpp.s
 
 # Help Target
 help:
@@ -635,9 +635,9 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... src/example.o"
-	@echo "... src/example.i"
-	@echo "... src/example.s"
+	@echo "... src/lab1.o"
+	@echo "... src/lab1.i"
+	@echo "... src/lab1.s"
 .PHONY : help
 
 

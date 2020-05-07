@@ -9,27 +9,27 @@
 #include <iostream>
 #include <stdlib.h>
 
-#include "exampleConfig.h"
-#include "example.h"
+#include "lab1.h"
 
 /*
  * Simple main program that demontrates how access
  * CMake definitions (here the version number) from source code.
  */
 int main() {
-  std::cout << "C++ Boiler Plate v"
-            << PROJECT_VERSION_MAJOR
-            << "."
-            << PROJECT_VERSION_MINOR
-            << "."
-            << PROJECT_VERSION_PATCH
-            << "."
-            << PROJECT_VERSION_TWEAK
-            << std::endl;
-  std::system("cat ../LICENSE");
+    vector<pair<int, int>> array;
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        int x, y;
+        cin >> x >> y;
+        array.push_back({x, y});
+    }
 
-  // Bring in the dummy class from the example source,
-  // just to show that it is accessible from main.cpp.
-  Dummy d = Dummy();
-  return d.doSomething() ? 0 : -1;
+    sort_points(array);
+
+    for_each(array.begin(), array.end(), [](pair<int, int> point) {
+        cout << point.first << ' ' << point.second << endl;
+    });
+
+    return 0;
 }

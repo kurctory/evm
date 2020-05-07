@@ -151,32 +151,32 @@ unit_tests/fast:
 	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
 .PHONY : unit_tests/fast
 
-dummy.o: dummy.cpp.o
+lab1_test.o: lab1_test.cpp.o
 
-.PHONY : dummy.o
+.PHONY : lab1_test.o
 
 # target to build an object file
-dummy.cpp.o:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.o
-.PHONY : dummy.cpp.o
+lab1_test.cpp.o:
+	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.o
+.PHONY : lab1_test.cpp.o
 
-dummy.i: dummy.cpp.i
+lab1_test.i: lab1_test.cpp.i
 
-.PHONY : dummy.i
+.PHONY : lab1_test.i
 
 # target to preprocess a source file
-dummy.cpp.i:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.i
-.PHONY : dummy.cpp.i
+lab1_test.cpp.i:
+	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.i
+.PHONY : lab1_test.cpp.i
 
-dummy.s: dummy.cpp.s
+lab1_test.s: lab1_test.cpp.s
 
-.PHONY : dummy.s
+.PHONY : lab1_test.s
 
 # target to generate assembly for a file
-dummy.cpp.s:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.s
-.PHONY : dummy.cpp.s
+lab1_test.cpp.s:
+	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.s
+.PHONY : lab1_test.cpp.s
 
 main.o: main.cpp.o
 
@@ -216,9 +216,9 @@ help:
 	@echo "... coverage"
 	@echo "... unit_tests"
 	@echo "... test"
-	@echo "... dummy.o"
-	@echo "... dummy.i"
-	@echo "... dummy.s"
+	@echo "... lab1_test.o"
+	@echo "... lab1_test.i"
+	@echo "... lab1_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

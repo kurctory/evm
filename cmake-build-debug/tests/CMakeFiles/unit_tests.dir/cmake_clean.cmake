@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../unit_tests"
   "../unit_tests.pdb"
-  "CMakeFiles/unit_tests.dir/dummy.cpp.o"
+  "CMakeFiles/unit_tests.dir/lab1_test.cpp.o"
   "CMakeFiles/unit_tests.dir/main.cpp.o"
 )
 

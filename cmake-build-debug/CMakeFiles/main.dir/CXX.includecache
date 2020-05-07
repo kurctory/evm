@@ -88,9 +88,9 @@ sys/time.h
 unistd.h
 -
 
-../include/example.h
-doctest.h
-../include/doctest.h
+../include/lab1.h
+vector
+-
 
 /home/vikokoks/CLionProjects/221_2019/app/main.cpp
 doctest.h
@@ -99,10 +99,6 @@ iostream
 -
 stdlib.h
 -
-exampleConfig.h
-/home/vikokoks/CLionProjects/221_2019/app/exampleConfig.h
-example.h
-/home/vikokoks/CLionProjects/221_2019/app/example.h
-
-exampleConfig.h
+lab1.h
+/home/vikokoks/CLionProjects/221_2019/app/lab1.h
 

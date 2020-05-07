@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/vikokoks/CLionProjects/221_2019/cmake-build-debug",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/vikokoks/CLionProjects/221_2019/cmake-build-debug -I/home/vikokoks/CLionProjects/221_2019/include -I/home/vikokoks/CLionProjects/221_2019/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++1z -o CMakeFiles/engine.dir/src/example.cpp.o -c /home/vikokoks/CLionProjects/221_2019/src/example.cpp",
-  "file": "/home/vikokoks/CLionProjects/221_2019/src/example.cpp"
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/vikokoks/CLionProjects/221_2019/cmake-build-debug -I/home/vikokoks/CLionProjects/221_2019/include -I/home/vikokoks/CLionProjects/221_2019/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++1z -o CMakeFiles/engine.dir/src/lab1.cpp.o -c /home/vikokoks/CLionProjects/221_2019/src/lab1.cpp",
+  "file": "/home/vikokoks/CLionProjects/221_2019/src/lab1.cpp"
 },
 {
   "directory": "/home/vikokoks/CLionProjects/221_2019/cmake-build-debug",
@@ -16,7 +16,7 @@
 },
 {
   "directory": "/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/vikokoks/CLionProjects/221_2019/cmake-build-debug -I/home/vikokoks/CLionProjects/221_2019/include -I/home/vikokoks/CLionProjects/221_2019/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++1z -o CMakeFiles/unit_tests.dir/dummy.cpp.o -c /home/vikokoks/CLionProjects/221_2019/tests/dummy.cpp",
-  "file": "/home/vikokoks/CLionProjects/221_2019/tests/dummy.cpp"
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/vikokoks/CLionProjects/221_2019/cmake-build-debug -I/home/vikokoks/CLionProjects/221_2019/include -I/home/vikokoks/CLionProjects/221_2019/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++1z -o CMakeFiles/unit_tests.dir/lab1_test.cpp.o -c /home/vikokoks/CLionProjects/221_2019/tests/lab1_test.cpp",
+  "file": "/home/vikokoks/CLionProjects/221_2019/tests/lab1_test.cpp"
 }
 ]

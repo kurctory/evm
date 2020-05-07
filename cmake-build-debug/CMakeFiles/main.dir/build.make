@@ -76,10 +76,10 @@ main_OBJECTS = \
 
 # External object files for target main
 main_EXTERNAL_OBJECTS = \
-"/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/engine.dir/src/example.cpp.o"
+"/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/engine.dir/src/lab1.cpp.o"
 
 main: CMakeFiles/main.dir/app/main.cpp.o
-main: CMakeFiles/engine.dir/src/example.cpp.o
+main: CMakeFiles/engine.dir/src/lab1.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"

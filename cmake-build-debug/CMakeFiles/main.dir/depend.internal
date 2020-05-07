@@ -3,6 +3,5 @@
 
 CMakeFiles/main.dir/app/main.cpp.o
  ../include/doctest.h
- ../include/example.h
+ ../include/lab1.h
  /home/vikokoks/CLionProjects/221_2019/app/main.cpp
- exampleConfig.h

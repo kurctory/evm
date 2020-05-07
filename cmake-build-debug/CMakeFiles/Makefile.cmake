@@ -18,7 +18,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake/LTO.cmake"
   "../cmake/Misc.cmake"
   "../cmake/Warnings.cmake"
-  "../include/exampleConfig.h.in"
   "../tests/CMakeLists.txt"
   "/home/vikokoks/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/home/vikokoks/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -61,7 +60,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "DartConfiguration.tcl"
-  "exampleConfig.h"
   "CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
   "CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp"
   "CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp"

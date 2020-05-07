@@ -57,20 +57,20 @@ include CMakeFiles/engine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/engine.dir/flags.make
 
-CMakeFiles/engine.dir/src/example.cpp.o: CMakeFiles/engine.dir/flags.make
-CMakeFiles/engine.dir/src/example.cpp.o: ../src/example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/example.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/example.cpp.o -c /home/vikokoks/CLionProjects/221_2019/src/example.cpp
+CMakeFiles/engine.dir/src/lab1.cpp.o: CMakeFiles/engine.dir/flags.make
+CMakeFiles/engine.dir/src/lab1.cpp.o: ../src/lab1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/lab1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/lab1.cpp.o -c /home/vikokoks/CLionProjects/221_2019/src/lab1.cpp
 
-CMakeFiles/engine.dir/src/example.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/example.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vikokoks/CLionProjects/221_2019/src/example.cpp > CMakeFiles/engine.dir/src/example.cpp.i
+CMakeFiles/engine.dir/src/lab1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/lab1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vikokoks/CLionProjects/221_2019/src/lab1.cpp > CMakeFiles/engine.dir/src/lab1.cpp.i
 
-CMakeFiles/engine.dir/src/example.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/example.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vikokoks/CLionProjects/221_2019/src/example.cpp -o CMakeFiles/engine.dir/src/example.cpp.s
+CMakeFiles/engine.dir/src/lab1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/lab1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vikokoks/CLionProjects/221_2019/src/lab1.cpp -o CMakeFiles/engine.dir/src/lab1.cpp.s
 
-engine: CMakeFiles/engine.dir/src/example.cpp.o
+engine: CMakeFiles/engine.dir/src/lab1.cpp.o
 engine: CMakeFiles/engine.dir/build.make
 
 .PHONY : engine
