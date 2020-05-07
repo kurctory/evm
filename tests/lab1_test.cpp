@@ -1,5 +1,5 @@
-#include "doctest.h"
 #include "lab1.h"
+#include "doctest.h"
 //
 // Created by vikokoks on 08.05.2020.
 //
