@@ -51,10 +51,10 @@ RM = /home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/src
+CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/bin
+CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,9 +83,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

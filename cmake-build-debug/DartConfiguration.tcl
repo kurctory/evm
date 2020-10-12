@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/vikokoks/CLionProjects/221_2019
-BuildDirectory: /home/vikokoks/CLionProjects/221_2019/cmake-build-debug
+SourceDirectory: /home/vikokoks/CLionProjects/tasks/tasks1-1
+BuildDirectory: /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake" "/home/vikokoks/CLionProjects/221_2019"
+ConfigureCommand: "/home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake" "/home/vikokoks/CLionProjects/tasks/tasks1-1"
 MakeCommand: /home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

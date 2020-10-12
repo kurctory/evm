@@ -43,10 +43,10 @@ RM = /home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/221_2019
+CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/221_2019/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug
 
 # Utility rule file for ExperimentalStart.
 
@@ -71,6 +71,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vikokoks/CLionProjects/221_2019 /home/vikokoks/CLionProjects/221_2019 /home/vikokoks/CLionProjects/221_2019/cmake-build-debug /home/vikokoks/CLionProjects/221_2019/cmake-build-debug /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vikokoks/CLionProjects/tasks/tasks1-1 /home/vikokoks/CLionProjects/tasks/tasks1-1 /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

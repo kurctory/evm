@@ -43,10 +43,10 @@ RM = /home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/221_2019
+CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/221_2019/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/engine.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/engine.dir/flags.make
 
 CMakeFiles/engine.dir/src/lab1.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/lab1.cpp.o: ../src/lab1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/lab1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/lab1.cpp.o -c /home/vikokoks/CLionProjects/221_2019/src/lab1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/engine.dir/src/lab1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/engine.dir/src/lab1.cpp.o -c /home/vikokoks/CLionProjects/tasks/tasks1-1/src/lab1.cpp
 
 CMakeFiles/engine.dir/src/lab1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/lab1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vikokoks/CLionProjects/221_2019/src/lab1.cpp > CMakeFiles/engine.dir/src/lab1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vikokoks/CLionProjects/tasks/tasks1-1/src/lab1.cpp > CMakeFiles/engine.dir/src/lab1.cpp.i
 
 CMakeFiles/engine.dir/src/lab1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/lab1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vikokoks/CLionProjects/221_2019/src/lab1.cpp -o CMakeFiles/engine.dir/src/lab1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vikokoks/CLionProjects/tasks/tasks1-1/src/lab1.cpp -o CMakeFiles/engine.dir/src/lab1.cpp.s
 
 engine: CMakeFiles/engine.dir/src/lab1.cpp.o
 engine: CMakeFiles/engine.dir/build.make
@@ -85,6 +85,6 @@ CMakeFiles/engine.dir/clean:
 .PHONY : CMakeFiles/engine.dir/clean
 
 CMakeFiles/engine.dir/depend:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vikokoks/CLionProjects/221_2019 /home/vikokoks/CLionProjects/221_2019 /home/vikokoks/CLionProjects/221_2019/cmake-build-debug /home/vikokoks/CLionProjects/221_2019/cmake-build-debug /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/engine.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vikokoks/CLionProjects/tasks/tasks1-1 /home/vikokoks/CLionProjects/tasks/tasks1-1 /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/engine.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/engine.dir/depend
 

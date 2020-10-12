@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake"
-  "/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake"
-  "/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
+  "/home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake"
+  "/home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake"
+  "/home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/_CMakeLTOTest-CXX/src/CMakeLists.txt"
   "/home/vikokoks/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/home/vikokoks/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/home/vikokoks/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake"

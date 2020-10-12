@@ -43,10 +43,10 @@ RM = /home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/221_2019
+CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/221_2019/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/unit_tests.dir/depend.make
@@ -59,29 +59,29 @@ include tests/CMakeFiles/unit_tests.dir/flags.make
 
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: tests/CMakeFiles/unit_tests.dir/flags.make
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: ../tests/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/unit_tests.dir/main.cpp.o"
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/vikokoks/CLionProjects/221_2019/tests/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/unit_tests.dir/main.cpp.o"
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/vikokoks/CLionProjects/tasks/tasks1-1/tests/main.cpp
 
 tests/CMakeFiles/unit_tests.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/main.cpp.i"
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vikokoks/CLionProjects/221_2019/tests/main.cpp > CMakeFiles/unit_tests.dir/main.cpp.i
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vikokoks/CLionProjects/tasks/tasks1-1/tests/main.cpp > CMakeFiles/unit_tests.dir/main.cpp.i
 
 tests/CMakeFiles/unit_tests.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/main.cpp.s"
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vikokoks/CLionProjects/221_2019/tests/main.cpp -o CMakeFiles/unit_tests.dir/main.cpp.s
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vikokoks/CLionProjects/tasks/tasks1-1/tests/main.cpp -o CMakeFiles/unit_tests.dir/main.cpp.s
 
 tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.o: tests/CMakeFiles/unit_tests.dir/flags.make
 tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.o: ../tests/lab1_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.o"
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/lab1_test.cpp.o -c /home/vikokoks/CLionProjects/221_2019/tests/lab1_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.o"
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/lab1_test.cpp.o -c /home/vikokoks/CLionProjects/tasks/tasks1-1/tests/lab1_test.cpp
 
 tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/lab1_test.cpp.i"
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vikokoks/CLionProjects/221_2019/tests/lab1_test.cpp > CMakeFiles/unit_tests.dir/lab1_test.cpp.i
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vikokoks/CLionProjects/tasks/tasks1-1/tests/lab1_test.cpp > CMakeFiles/unit_tests.dir/lab1_test.cpp.i
 
 tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/lab1_test.cpp.s"
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vikokoks/CLionProjects/221_2019/tests/lab1_test.cpp -o CMakeFiles/unit_tests.dir/lab1_test.cpp.s
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vikokoks/CLionProjects/tasks/tasks1-1/tests/lab1_test.cpp -o CMakeFiles/unit_tests.dir/lab1_test.cpp.s
 
 # Object files for target unit_tests
 unit_tests_OBJECTS = \
@@ -90,15 +90,15 @@ unit_tests_OBJECTS = \
 
 # External object files for target unit_tests
 unit_tests_EXTERNAL_OBJECTS = \
-"/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles/engine.dir/src/lab1.cpp.o"
+"/home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles/engine.dir/src/lab1.cpp.o"
 
 unit_tests: tests/CMakeFiles/unit_tests.dir/main.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/lab1_test.cpp.o
 unit_tests: CMakeFiles/engine.dir/src/lab1.cpp.o
 unit_tests: tests/CMakeFiles/unit_tests.dir/build.make
 unit_tests: tests/CMakeFiles/unit_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vikokoks/CLionProjects/221_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../unit_tests"
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../unit_tests"
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/unit_tests.dir/build: unit_tests
@@ -106,10 +106,10 @@ tests/CMakeFiles/unit_tests.dir/build: unit_tests
 .PHONY : tests/CMakeFiles/unit_tests.dir/build
 
 tests/CMakeFiles/unit_tests.dir/clean:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && $(CMAKE_COMMAND) -P CMakeFiles/unit_tests.dir/cmake_clean.cmake
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && $(CMAKE_COMMAND) -P CMakeFiles/unit_tests.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/unit_tests.dir/clean
 
 tests/CMakeFiles/unit_tests.dir/depend:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vikokoks/CLionProjects/221_2019 /home/vikokoks/CLionProjects/221_2019/tests /home/vikokoks/CLionProjects/221_2019/cmake-build-debug /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests/CMakeFiles/unit_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vikokoks/CLionProjects/tasks/tasks1-1 /home/vikokoks/CLionProjects/tasks/tasks1-1/tests /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests/CMakeFiles/unit_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/unit_tests.dir/depend
 

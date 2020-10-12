@@ -43,10 +43,10 @@ RM = /home/vikokoks/clion-2020.1.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/221_2019
+CMAKE_SOURCE_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/221_2019/cmake-build-debug
+CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug
 
 # Utility rule file for coverage.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/vikokoks/CLionProjects/221_2019/cmake-build-debug
 include tests/CMakeFiles/coverage.dir/progress.make
 
 tests/CMakeFiles/coverage:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && echo [31mCode\ coverage\ only\ available\ in\ coverage\ builds.
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && echo [32mMake\ a\ new\ build\ directory\ and\ rerun\ cmake\ with\ -DCMAKE_BUILD_TYPE=Coverage\ to\ enable\ this\ target.[m
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && echo [31mCode\ coverage\ only\ available\ in\ coverage\ builds.
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && echo [32mMake\ a\ new\ build\ directory\ and\ rerun\ cmake\ with\ -DCMAKE_BUILD_TYPE=Coverage\ to\ enable\ this\ target.[m
 
 coverage: tests/CMakeFiles/coverage
 coverage: tests/CMakeFiles/coverage.dir/build.make
@@ -68,10 +68,10 @@ tests/CMakeFiles/coverage.dir/build: coverage
 .PHONY : tests/CMakeFiles/coverage.dir/build
 
 tests/CMakeFiles/coverage.dir/clean:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests && $(CMAKE_COMMAND) -P CMakeFiles/coverage.dir/cmake_clean.cmake
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests && $(CMAKE_COMMAND) -P CMakeFiles/coverage.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/coverage.dir/clean
 
 tests/CMakeFiles/coverage.dir/depend:
-	cd /home/vikokoks/CLionProjects/221_2019/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vikokoks/CLionProjects/221_2019 /home/vikokoks/CLionProjects/221_2019/tests /home/vikokoks/CLionProjects/221_2019/cmake-build-debug /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests /home/vikokoks/CLionProjects/221_2019/cmake-build-debug/tests/CMakeFiles/coverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vikokoks/CLionProjects/tasks/tasks1-1 /home/vikokoks/CLionProjects/tasks/tasks1-1/tests /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests /home/vikokoks/CLionProjects/tasks/tasks1-1/cmake-build-debug/tests/CMakeFiles/coverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/coverage.dir/depend
 

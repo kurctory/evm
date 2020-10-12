@@ -1,4 +1,4 @@
-# Install script for directory: /home/vikokoks/CLionProjects/221_2019/tests
+# Install script for directory: /home/vikokoks/CLionProjects/tasks/tasks1-1/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
